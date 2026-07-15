@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import Navbar from "./Navbar";
 
 const ViewVolunteer = () => {
   const [data, setData] = useState([]);
@@ -23,6 +24,7 @@ const ViewVolunteer = () => {
   }, []);
 
   return (
+    <>
     <div
       className="min-vh-100 py-5"
       style={{
@@ -153,6 +155,7 @@ const ViewVolunteer = () => {
           border-radius:20px;
         } `}</style>
     </div>
+    </>
   );
 };
 

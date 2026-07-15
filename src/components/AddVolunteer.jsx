@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
+import Navbar from "./Navbar";
 
 const AddVolunteer = () => {
   const [volunteer, setVolunteer] = useState({
@@ -45,6 +46,7 @@ const AddVolunteer = () => {
   };
 
   return (
+    <>
     <div
       className="min-vh-100 py-5"
       style={{
@@ -374,6 +376,7 @@ const AddVolunteer = () => {
 
       `}</style>
        </div>
+    </>
   );
 };
 

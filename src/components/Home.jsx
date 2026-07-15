@@ -1,7 +1,9 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 const Home = () => {
   return (
+    <>
     <div
       className="min-vh-100 d-flex align-items-center"
       style={{
@@ -141,6 +143,7 @@ const Home = () => {
 
       </div>
     </div>
+    </>        
   );
 };
 
